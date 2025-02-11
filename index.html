@@ -4,14 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" connect="width=device-width, initial-sclale=1.0">
         <title>Арт-пространство</title>
-        <style>
-            /*here*/
-        </style>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
             <nav>
-                <!--Меню навигации-->
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#events">Мероприятия</a></li>
+                    <li><a href="#blog">Блог</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
             </nav>
         </header>
 
@@ -22,33 +26,51 @@
                 <p>
                     Для людей, горящих сердцем и делом. Место для настоящего
                 </p>
-                <!--Кнопки-->
+                <button>Присоединиться</button>
+                <button>Узнать больше</button>
+            </section>
+
+            <section id="about">
+                <h2>О нас</h2>
+                <p>Мы предоставляем площадки для вашего мероприятия.</p>
+                <img src="images/about.jpg" alt="About Image">
             </section>
 
             <section class="projects">
                 <h2>Проекты</h2>
-                <!-- Описание проектов -->
+                <div>
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <img src="images/project2.jpg" alt="Project 2">
+                </div>
             </section>
 
             <section class="events">
                 <h2>Мероприятия</h2>
-                <!-- Описание мероприятий -->
+                <div>
+                    <img src="images/event1.jpg" alt="Event 1">
+                    <img src="images/event2.jpg" alt="Event 2">
+                </div>
             </section>
 
             <section class="blog">
                 <h2>Блог</h2>
-                <!-- Посты блога -->
+                <div>
+                    <img src="images/blog1.jpg" alt="Blog Post 1">
+                    <img src="images/blog2.jpg" alt="Blog Post 2">
+                </div>
             </section>
 
             <section class="contacts">
                 <h2>Контакты</h2>
-                <!-- Информация о контактах -->
+                <p>Телефон: +7 (999) 999-99-99</p>
+                <p>Email: info@art-space.com</p>
+                <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </section>
 
         </main>
 
         <footer>
-            <!--подвал-->
+            <p>&copy; Арт-пространство 2023</p>
         </footer>
     </body>
 </html>
