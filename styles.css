@@ -1,5 +1,5 @@
 body {
-    font-family: Lora;
+    font-family: "Open Sans", serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -11,37 +11,77 @@ header {
     padding: 10px 20px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
 }
 
 .hero {
     text-align: center;
     padding: 50px 20px;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .hero h1 {
     font-size: 3em;
+    font-weight: 700;
 }
 
 .hero p {
     font-size: 1.5em;
+    font-weight: 400;
 }
 
 button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 section {
     padding: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
+#about, #projects, #events, #blog, #contacts {
+    background-color: white;
+    margin: 20px 0;
+}
+
+#projects, #events, #blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project, .event, .blog-post {
+    border: 1px solid #ddd;
+    padding: 10px;
     text-align: center;
-    padding: 10px 20px;
+}
+
+footer {
+    font-size: 14px;
 }
