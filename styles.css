@@ -1,8 +1,19 @@
 body {
-    font-family: "Open Sans", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+}
+
+.container {
+    width: 1920px;;
+    height: 7898px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 header {
@@ -35,7 +46,7 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-image: url('images/hero.jpg');
+    background-image: url('images/LENNI.svg');
     background-size: cover;
     background-position: center;
     color: white;
