@@ -41,6 +41,11 @@ nav ul li a:hover {
     color: white;
 }
 
+.LENNI img{
+    width: 100%;
+    height: auto;
+}
+
 .hero h1 {
     font-size: 3em;
     font-weight: 700;
